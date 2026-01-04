@@ -271,10 +271,10 @@
         type {
             label = "type";
             bindings = <
-       &kp Q    &kp Y      &kp O    &kp U           &kp EQUAL    &kp X  &kp L       &kp D    &kp W  &kp Z
-       &kp C    &kp I      &kp A    &kp E           &kp MINUS    &kp K  &kp H       &kp T    &kp N  &kp S
-&kp B  &kp SQT  &kp COMMA  &kp DOT  &kp SEMI        &kp FSLH     &kp J  &kp M       &kp G    &kp P  &kp V  &kp F
-                           &kp ESC  &sk LEFT_SHIFT  &kp SPACE    &kp R  &kp DELETE  &kp RET
+       &kp Q    &kp Y      &kp O    &kp U      &kp EQUAL    &kp X  &kp L       &kp D    &kp W  &kp Z
+       &kp C    &kp I      &kp A    &kp E      &kp MINUS    &kp K  &kp H       &kp T    &kp N  &kp S
+&kp B  &kp SQT  &kp COMMA  &kp DOT  &kp SEMI   &kp FSLH     &kp J  &kp M       &kp G    &kp P  &kp V  &kp F
+                           &kp TAB  &lt 5 ESC  &kp SPACE    &kp R  &kp DELETE  &kp RET
             >;
         };
 
