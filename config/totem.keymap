@@ -122,10 +122,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q        &kp Y        &kp O         &kp U                   &kp EQUAL      &kp X    &kp L               &kp D         &kp W             &kp Z
-       &hml LGUI C  &hml LALT I  &hml LCTRL A  &hml LSHFT E            &kp MINUS      &kp K    &hmr RIGHT_SHIFT H  &hmr RCTRL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-&kp B  &kp SQT      &kp COMMA    &kp DOT       &kp SEMI                &kp FSLH       &kp J    &kp M               &kp G         &kp P             &kp V             &kp F
-                                 &kp ESCAPE    &layer_sk 5 LEFT_SHIFT  &lt 1 SPACE    &lt 2 R  &lt 4 BACKSPACE     &kp ENTER
+       &kp Q        &kp Y        &kp O         &kp U         &kp EQUAL      &kp X    &kp L               &kp D         &kp W             &kp Z
+       &hml LGUI C  &hml LALT I  &hml LCTRL A  &hml LSHFT E  &kp MINUS      &kp K    &hmr RIGHT_SHIFT H  &hmr RCTRL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+&kp B  &kp SQT      &kp COMMA    &kp DOT       &kp SEMI      &kp FSLH       &kp J    &kp M               &kp G         &kp P             &kp V             &kp F
+                                 &kp TAB       &lt 5 ESC     &lt 1 SPACE    &lt 2 R  &lt 4 BACKSPACE     &kp ENTER
             >;
         };
 
