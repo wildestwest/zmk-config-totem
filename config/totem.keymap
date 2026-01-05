@@ -151,7 +151,7 @@
        &none  &none  &kp LC(V)  &kp LC(C)  &none            &none     &kp RIGHT  &kp END   &none  &none
        &mo 8  &none  &kp LG(V)  &kp LG(C)  &kp LG(LC(Q))    &kp UP    &kp LEFT   &kp HOME  &none  &none
 &none  &none  &none  &none      &none      &none            &kp DOWN  &none      &none     &none  &none  &trans
-                     &trans     &trans     &trans           &mo 3     &to 6      &to 7
+                     &trans     &trans     &trans           &sl 3     &to 6      &to 7
             >;
         };
 
