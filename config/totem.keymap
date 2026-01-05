@@ -174,7 +174,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp COMMA      &kp LS(LBRC)  &kp LS(RIGHT_BRACE)  &kp SEMI      &kp LS(QMARK)    &kp GRAVE    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+           &kp COMMA      &kp LS(LBRC)  &kp LS(RIGHT_BRACE)  &kp SEMI      &kp LS(QMARK)    &kp EXCL     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
            &kp LS(CARET)  &kp EQUAL     &kp LS(UNDER)        &kp LS(DLLR)  &kp LS(STAR)     &kp LS(DQT)  &kp BACKSPACE     &kp TAB               &kp SPACE              &kp ENTER
 &kp POUND  &kp LS(LT)     &kp LS(PIPE)  &kp MINUS            &kp LS(GT)    &kp FSLH         &kp SQT      &kp AMPS          &kp GRAVE             &kp TILDE              &kp PLUS           &kp BACKSLASH
                                         &kp COLON            &kp AT_SIGN   &kp PERCENT      &trans       &trans            &trans
