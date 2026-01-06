@@ -41,27 +41,21 @@
             require-prior-idle-ms = <300>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
+        esc {
+            bindings = <&kp ESCAPE>;
             key-positions = <13 12 11>;
             layers = <0 7>;
         };
 
         caps_word {
             bindings = <&caps_word>;
+            key-positions = <35 34>;
+            layers = <0 7>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
             key-positions = <16 17 18>;
-            layers = <0 7>;
-        };
-
-        leftshift {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <13 24>;
-            layers = <0 7>;
-        };
-
-        rightshift {
-            bindings = <&sk RIGHT_SHIFT>;
-            key-positions = <16 27>;
             layers = <0 7>;
         };
     };
@@ -129,10 +123,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q        &kp Y        &kp O         &kp U         &kp EQUAL      &kp X    &kp L               &kp D         &kp W             &kp Z
-       &hml LGUI C  &hml LALT I  &hml LCTRL A  &hml LSHFT E  &kp MINUS      &kp K    &hmr RIGHT_SHIFT H  &hmr RCTRL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-&kp B  &kp SQT      &kp COMMA    &kp DOT       &kp SEMI      &kp FSLH       &kp J    &kp M               &kp G         &kp P             &kp V             &kp F
-                                 &kp TAB       &lt 5 ESC     &lt 1 SPACE    &lt 2 R  &lt 4 BACKSPACE     &kp ENTER
+       &kp Q        &kp Y        &kp O         &kp U         &kp EQUAL                 &kp X                    &kp L               &kp D            &kp W             &kp Z
+       &hml LGUI C  &hml LALT I  &hml LCTRL A  &hml LSHFT E  &kp MINUS                 &kp K                    &hmr RIGHT_SHIFT H  &hmr RCTRL T     &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+&kp B  &kp SQT      &kp COMMA    &kp DOT       &kp SEMI      &kp FSLH                  &kp J                    &kp M               &kp G            &kp P             &kp V             &kp F
+                                 &lt 5 ENTER   &lt 1 SPACE   &layer_sk 8 LEFT_SHIFT    &layer_sk 3 RIGHT_SHIFT  &lt 2 R             &lt 4 BACKSPACE
             >;
         };
 
@@ -158,7 +152,7 @@
        &none  &none  &kp LC(V)  &kp LC(C)  &none            &none  &none     &none          &none        &none
        &mo 8  &none  &kp LG(V)  &kp LG(C)  &kp LG(LC(Q))    &none  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT
 &none  &none  &none  &none      &none      &none            &none  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                     &trans     &trans     &trans           &sl 3  &to 6     &to 7
+                     &trans     &trans     &trans           &none  &to 6     &to 7
             >;
         };
 
@@ -278,10 +272,10 @@
         type {
             label = "type";
             bindings = <
-       &kp Q    &kp Y      &kp O    &kp U      &kp EQUAL    &kp X  &kp L          &kp D    &kp W  &kp Z
-       &kp C    &kp I      &kp A    &kp E      &kp MINUS    &kp K  &kp H          &kp T    &kp N  &kp S
-&kp B  &kp SQT  &kp COMMA  &kp DOT  &kp SEMI   &kp FSLH     &kp J  &kp M          &kp G    &kp P  &kp V  &kp F
-                           &kp TAB  &lt 5 ESC  &kp SPACE    &kp R  &kp BACKSPACE  &kp RET
+       &kp Q    &kp Y      &kp O        &kp U      &kp EQUAL         &kp X            &kp L    &kp D          &kp W  &kp Z
+       &kp C    &kp I      &kp A        &kp E      &kp MINUS         &kp K            &kp H    &kp T          &kp N  &kp S
+&kp B  &kp SQT  &kp COMMA  &kp DOT      &kp SEMI   &kp FSLH          &kp J            &kp M    &kp G          &kp P  &kp V  &kp F
+                           &lt 5 ENTER  &kp SPACE  &sk LEFT_SHIFT    &sk RIGHT_SHIFT  &lt 2 R  &kp BACKSPACE
             >;
         };
 
