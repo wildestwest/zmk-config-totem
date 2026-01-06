@@ -49,7 +49,7 @@
 
         caps_word {
             bindings = <&caps_word>;
-            key-positions = <35 34>;
+            key-positions = <32 37>;
             layers = <0 7>;
         };
 
@@ -123,10 +123,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q        &kp Y        &kp O         &kp U         &kp EQUAL                 &kp X                    &kp L               &kp D            &kp W             &kp Z
-       &hml LGUI C  &hml LALT I  &hml LCTRL A  &hml LSHFT E  &kp MINUS                 &kp K                    &hmr RIGHT_SHIFT H  &hmr RCTRL T     &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-&kp B  &kp SQT      &kp COMMA    &kp DOT       &kp SEMI      &kp FSLH                  &kp J                    &kp M               &kp G            &kp P             &kp V             &kp F
-                                 &lt 5 ENTER   &lt 1 SPACE   &layer_sk 8 LEFT_SHIFT    &layer_sk 3 RIGHT_SHIFT  &lt 2 R             &lt 4 BACKSPACE
+       &kp Q        &kp Y        &kp O                   &kp U         &kp EQUAL      &kp X    &kp L               &kp D                   &kp W             &kp Z
+       &hml LGUI C  &hml LALT I  &hml LCTRL A            &hml LSHFT E  &kp MINUS      &kp K    &hmr RIGHT_SHIFT H  &hmr RCTRL T            &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+&kp B  &kp SQT      &kp COMMA    &kp DOT                 &kp SEMI      &kp FSLH       &kp J    &kp M               &kp G                   &kp P             &kp V             &kp F
+                                 &layer_sk 8 LEFT_SHIFT  &lt 5 ENTER   &lt 1 SPACE    &lt 2 R  &lt 4 BACKSPACE     &layer_sk 3 LEFT_SHIFT
             >;
         };
 
@@ -272,10 +272,10 @@
         type {
             label = "type";
             bindings = <
-       &kp Q    &kp Y      &kp O        &kp U      &kp EQUAL         &kp X            &kp L    &kp D          &kp W  &kp Z
-       &kp C    &kp I      &kp A        &kp E      &kp MINUS         &kp K            &kp H    &kp T          &kp N  &kp S
-&kp B  &kp SQT  &kp COMMA  &kp DOT      &kp SEMI   &kp FSLH          &kp J            &kp M    &kp G          &kp P  &kp V  &kp F
-                           &lt 5 ENTER  &kp SPACE  &sk LEFT_SHIFT    &sk RIGHT_SHIFT  &lt 2 R  &kp BACKSPACE
+       &kp Q    &kp Y      &kp O           &kp U        &kp EQUAL    &kp X    &kp L          &kp D            &kp W  &kp Z
+       &kp C    &kp I      &kp A           &kp E        &kp MINUS    &kp K    &kp H          &kp T            &kp N  &kp S
+&kp B  &kp SQT  &kp COMMA  &kp DOT         &kp SEMI     &kp FSLH     &kp J    &kp M          &kp G            &kp P  &kp V  &kp F
+                           &sk LEFT_SHIFT  &lt 5 ENTER  &kp SPACE    &lt 2 R  &kp BACKSPACE  &sk RIGHT_SHIFT
             >;
         };
 
