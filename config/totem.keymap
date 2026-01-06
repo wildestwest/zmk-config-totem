@@ -24,13 +24,15 @@
 #define TVP2 5
 
 &mt {
-    quick-tap-ms = <100>;
+    quick-tap-ms = <175>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <175>;
 };
 
 &sk { quick-release; };
+
+&lt { quick-tap-ms = <175>; };
 
 / {
     combos {
@@ -47,6 +49,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <4 14>;
             layers = <0 7>;
+            timeout-ms = <100>;
         };
 
         caps_word {
@@ -59,6 +62,7 @@
             bindings = <&kp TAB>;
             key-positions = <5 15>;
             layers = <0 7>;
+            timeout-ms = <100>;
         };
     };
 
@@ -154,7 +158,7 @@
        &none  &none  &kp LC(V)  &kp LC(C)  &none            &none  &none     &none          &none        &none
        &none  &none  &kp LG(V)  &kp LG(C)  &kp LG(LC(Q))    &none  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT
 &none  &none  &none  &none      &none      &none            &none  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                     &trans     &trans     &trans           &to 6  &to 7     &to 8
+                     &trans     &trans     &trans           &to 6  &tog 7    &none
             >;
         };
 
